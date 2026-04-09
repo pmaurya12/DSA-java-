@@ -11,7 +11,7 @@ public class pq {
         }
         @Override
         public int compareTo(Student s2){
-            return this.rank-s2.rank;
+            return s2.rank-this.rank;
         }
     }
     public static void main(String[] args) {
